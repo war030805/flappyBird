@@ -1,0 +1,25 @@
+#bird, .pipe, .cloud{
+    position: absolute;
+}
+
+#bird {
+    background-color: orange;
+    min-height: 50px;
+    min-width: 50px;
+}
+
+.pipe {
+    background-color: green;
+    min-width: 50px;
+    z-index: 1;
+}
+
+body {
+    background-color: lightskyblue;
+}
+
+.cloud {
+    z-index: 0;
+    width: 10%;
+    height: auto;
+}
